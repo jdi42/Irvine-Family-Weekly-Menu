@@ -1,7 +1,28 @@
-#week-header{
+#week-header {
     text-align: center;
     font-family: Inter;
 }
+
+/* THIS IS TO SET THE HEIGHT OF THE INDIVIDUAL PICTURES IN THE CAROUSEL */
 .carousel-item {
-    height: 300px; /* Adjust the height as needed */
-  }
+    height: 300px;
+    /* Adjust the height as needed */
+}
+
+/* THIS CAPS THE HEIGHT OF THE NAVBAR IMAGE */
+.navbar-brand img {
+    max-height: 40px;
+    /* Adjust the max-height as needed */
+}
+
+/* THESE CONTROL THE TITLE ON THE NAVBAR, MAKING IT APPEAR ON MEDIUM AND LARGER DEVICES */
+#titlemenu{
+    display: none;
+    padding-left: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    #titlemenu{
+        display: inline;
+    }
+}
