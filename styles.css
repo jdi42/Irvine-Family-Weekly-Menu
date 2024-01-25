@@ -1,6 +1,37 @@
-#week-header {
+/* THESE ARE SOME CUSTOM COLORS BASED ON THE IRVINE CLAN IMAGE */
+body{
+    background-color: #2D5937;
+}
+.custom-green-color{
+    background-color: #2D5937;
+}
+.custom-beige-color{
+    background-color: #adac87;
+}
+.custom-silver-color{
+    background-color: #C7C4BB;
+}
+.custom-button-color{
+    background-color: #74838C;
+    color: white;
+}
+.custom-date-color{
+    background-color: #6C4538;
+    color: white;
+}
+.custom-charcoal-color{
+    background-color: #32576A;
+    
+}
+.white-font{
+    color: white;
+}
+
+.week-header {
     text-align: center;
     font-family: Inter;
+    background-color: #720E0E;
+    color: white;
 }
 
 /* THIS IS TO SET THE HEIGHT OF THE INDIVIDUAL PICTURES IN THE CAROUSEL */
