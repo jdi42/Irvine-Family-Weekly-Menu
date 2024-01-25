@@ -14,15 +14,3 @@
     max-height: 40px;
     /* Adjust the max-height as needed */
 }
-
-/* THESE CONTROL THE TITLE ON THE NAVBAR, MAKING IT APPEAR ON MEDIUM AND LARGER DEVICES */
-#titlemenu{
-    display: none;
-    padding-left: 10px;
-}
-
-@media only screen and (min-width: 768px) {
-    #titlemenu{
-        display: inline;
-    }
-}
