@@ -11,10 +11,21 @@ body{
 .custom-silver-color{
     background-color: #C7C4BB;
 }
-.custom-button-color{
+.custom-bloodred-button-color{
+    background-color: #720E0E;
+    color: white;
+}
+
+.custom-silver-button-color{
     background-color: #74838C;
     color: white;
 }
+
+.custom-button-color:hover{
+    background-color: #74838C;
+}
+
+
 .custom-date-color{
     background-color: #6C4538;
     color: white;
