@@ -62,7 +62,7 @@
                         <a class="nav-link" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="menuinput.html">Create Menu</a>
                     </li>
                     <!-- Add more menu items as needed -->
                 </ul>
@@ -99,7 +99,7 @@
     </h2>
 
     <!-- THE CARDS SECTION -->
-    <div class="container">
+    <div class="container d-none">
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g4">
 
             <!-- SUNDAY  -->
@@ -110,6 +110,7 @@
                     </div>
                     <div class="card-body">
                         <h5 class="card-title" id="sunday-title">Ribs and Rice</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
                         <p class="card-text">The dinner will be served with the following sides</p>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item custom-beige-color" id="sun-side-1">Brown Rice</li>
@@ -280,6 +281,11 @@
         </div>
     </div>
 
+    <div class="container">
+        <!-- Container for dynamically generated days -->
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="days-container"></div>
+    </div>
+
     <!-- Modal -->
     <div class="modal fade" id="ingredientModal" tabindex="-1" aria-labelledby="ingredientModalLabel"
         aria-hidden="true">
@@ -297,8 +303,7 @@
                     </ul>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn custom-silver-button-color" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn custom-bloodred-button-color">Save changes</button>
+                    <button type="button" class="btn custom-bloodred-button-color" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -307,6 +312,7 @@
 
     <!-- LINK TO MY SCRIPTS FILE -->
     <script src="scripts.js"></script>
+    <script src="scripts-alternate.js"></script>
 
 
     <!-- BOOTSTRAP JAVASCRIPT -->
