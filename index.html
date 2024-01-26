@@ -43,7 +43,7 @@
             <!-- Navbar brand/logo -->
             <a class="navbar-brand" href="#">
                 <img src="IrvineLogo2.jpeg">
-                <span class="d-inline ps-3 white-font">Irvine Family Menu</span>
+                <span class="d-inline ps-3 white-font fst-italic fs-3">Irvine Family Menu</span>
             </a>
 
             <!-- Hamburger menu button for mobile -->
@@ -296,23 +296,28 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <ul>
-                        <li>pork back ribs</li>
-                        <li>brown rice</li>
-                        <li>chicken/turkey stock</li>
-                    </ul>
+                    <ul id="ingredientList"></ul>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn custom-bloodred-button-color" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn custom-bloodred-button-color"
+                        data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- FOOTER -->
+    <div class="container" bis_skin_checked="1">
+        <footer class="py-3 my-4">
+            <div class="border-bottom mb-3"></div>
+            <p class="text-center white-font">© 2024</p>
+        </footer>
+    </div>
 
-    <!-- LINK TO MY SCRIPTS FILE -->
-    <script src="scripts.js"></script>
-    <script src="scripts-alternate.js"></script>
+
+    <!-- LINK TO MY SCRIPT FILES -->
+    <script src="card_generator_script.js"></script>
+    <script src="ingredients_modal_script.js"></script>
 
 
     <!-- BOOTSTRAP JAVASCRIPT -->

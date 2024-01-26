@@ -1,8 +1,66 @@
 <head>
-    <title>menu input form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Input Page</title>
 </head>
 <body>
     <div>
         here's a form to input menu's
     </div>
+
+    <form id="inputForm">
+        <!-- Your form fields here -->
+        <div class="mb-3">
+          <label for="dayId" class="form-label">Day</label>
+          <input type="text" class="form-control" id="dayId" required>
+        </div>
+        <div class="mb-3">
+          <label for="title" class="form-label">Title</label>
+          <input type="text" class="form-control" id="title" required>
+        </div>
+        <div class="mb-3">
+            <label for="title" class="form-label">Protien</label>
+            <input type="text" class="form-control" id="protien" required>
+          </div>
+          <div class="mb-3">
+            <label for="title" class="form-label">Side 1</label>
+            <input type="text" class="form-control" id="side1" required>
+          </div>
+          <div class="mb-3">
+            <label for="title" class="form-label">Side 2</label>
+            <input type="text" class="form-control" id="side2" required>
+          </div>
+          <div class="mb-3">
+            <label for="title" class="form-label">Side 3</label>
+            <input type="text" class="form-control" id="side3" required>
+          </div>
+          <div class="mb-3">
+            <label for="title" class="form-label">Ingredients</label>
+            <input type="text" class="form-control" id="ingredients" required>
+          </div>
+
+        <button type="button" onclick="submitForm()">Submit</button>
+      </form>
+
+      <script>
+        function submitForm() {
+          // Collect form data
+          var formData = {
+            id: document.getElementById("dayId").value,
+            title: document.getElementById("title").value,
+            // Add more fields as needed
+          };
+    
+          // Convert data to JSON string
+          var jsonData = JSON.stringify(formData);
+    
+          // Store data in sessionStorage
+          sessionStorage.setItem('daysData', jsonData);
+    
+          // Redirect to the main page
+          window.location.href = 'index.html';
+        }
+      </script>
+
+      
 </body>
