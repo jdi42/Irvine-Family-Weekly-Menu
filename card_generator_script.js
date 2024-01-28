@@ -1,12 +1,33 @@
 // Define data for each day
 var daysData = [
-  { id: "Sunday", title: "Ribs and Rice", protien: "Pork", side1: "Brown Rice", side2: "Carrots", side3: "Broccoli", ingredients: "one, two, three" },
-  { id: "Monday", title: "Test1", protien: "Pork", side1: "ingred1", side2: "ingred2", side3: "ingred3", ingredients: 'soup' },
-  { id: "Tuesday", title: "Tesfsddt1", protien: "Pork", side1: "ingfdadred1", side2: "ingreread2", side3: "ingredaadf3", ingredients: '' },
-  { id: "Wednesday", title: "Tesarerert1", protien: "Pork", side1: "ingraaaaaaaaed1", side2: "ingrfffffffffed2", side3: "ingreeerd3", ingredients: '' },
-  { id: "Thursday", title: "Testffaaaadf1", protien: "Pork", side1: "ingrekiuykud1", side2: "ingrjiljkld2", side3: "ingrelijkld3", ingredients: '' },
-  { id: "Friday", title: "Test1", protien: "Pork", side1: "ingred1", side2: "ingred2", side3: "ingred3", ingredients: '' },
-  { id: "Saturday", title: "Test1", protien: "Pork", side1: "ingred1", side2: "ingred2", side3: "ingred3", ingredients: '' }
+  { id: "Sunday",
+  title: "Roast Chicken", protien: "Chicken",
+  side1: "Mashed Potatoes", side2: "Carrots", side3: "Broccoli",
+  ingredients: "Chicken, Potatoes, Carrots, Broccoli" },
+  { id: "Monday",
+  title: "Hamburger Soup with Barley", protien: "Beef",
+  side1: "Smokies", side2: "", side3: "",
+  ingredients: 'Ground beef, onion, beef stock, canned tomatoes, carrots, celery, barley, bay leaf, thyme, parsley, salt and pepper, worcestershire sauce, rosemary, smokies, hotdog buns' },
+  { id: "Tuesday",
+  title: "Chichken Salad", protien: "Chicken",
+  side1: "Garlic/Cheese Toast", side2: "", side3: "",
+  ingredients: 'leftover chicken, salad fixings, tomato, celery, radishes, carrots, peanuts' },
+  { id: "Wednesday",
+  title: "Hamburger Soup with Barley", protien: "Beef",
+  side1: "No Knead Bread", side2: "", side3: "",
+  ingredients: 'Leftover soup, flour, salt, salt, sugar, yeast, water' },
+  { id: "Thursday",
+  title: "Almond Chicken", protien: "Chicken",
+  side1: "Pork Fried Rice", side2: "", side3: "",
+  ingredients: '' },
+  { id: "Friday",
+  title: "Salsbury Steak", protien: "Beef",
+  side1: "Boiled Potatoes", side2: "Corn", side3: "Cabbage",
+  ingredients: 'mushrooms, beef broth' },
+  { id: "Saturday",
+  title: "Fried Chicken Thighs", protien: "Chicken",
+  side1: "Brown Rice", side2: "Brussel Sprouts with Bacon", side3: "Tomato Wedges",
+  ingredients: 'brussel sprouts, tomato' }
 ];
 
 
