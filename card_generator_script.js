@@ -9,7 +9,7 @@ var daysData = [
   side1: "Smokies", side2: "", side3: "",
   ingredients: 'Ground beef, onion, beef stock, canned tomatoes, carrots, celery, barley, bay leaf, thyme, parsley, salt and pepper, worcestershire sauce, rosemary, smokies, hotdog buns' },
   { id: "Tuesday",
-  title: "Chichken Salad", protien: "Chicken",
+  title: "Chicken Salad", protien: "Chicken",
   side1: "Garlic/Cheese Toast", side2: "", side3: "",
   ingredients: 'leftover chicken, salad fixings, tomato, celery, radishes, carrots, peanuts' },
   { id: "Wednesday",
