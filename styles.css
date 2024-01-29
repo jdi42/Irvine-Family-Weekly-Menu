@@ -60,3 +60,8 @@ body{
 .min-list-item-height{
     min-height: 2em;
 }
+
+.btn:hover{
+    color: white;
+    background-color: #720E0E;
+}

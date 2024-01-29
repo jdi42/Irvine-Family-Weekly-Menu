@@ -86,10 +86,10 @@ for (var i = 0; i < daysData.length; i++) {
           <!-- Button for Ingredients with custom silver button color -->
           <div class="mt-auto">
             <button type="button" class="btn custom-silver-button-color" data-bs-toggle="modal" data-bs-target="#ingredientModal" data-ingredients="${day.ingredients}">
-            Ingredients
+              Ingredients
             </button>
             <!-- Button for Recipe with custom silver button color -->
-            <a href="#" class="btn custom-silver-button-color">Recipe</a>
+            <button class="btn custom-silver-button-color" data-toggle="tooltip" title="recipe info here">Recipe</button>
           </div>
         </div>
       </div>
