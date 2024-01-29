@@ -56,3 +56,7 @@ body{
     max-height: 40px;
     /* Adjust the max-height as needed */
 }
+
+.min-list-item-height{
+    min-height: 2em;
+}
