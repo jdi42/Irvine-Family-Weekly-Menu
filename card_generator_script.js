@@ -2,7 +2,7 @@
 var daysData = [
   {
     id: "Sunday",
-    title: "Roast Chicken", protien: "Chicken",
+    title: "Roast Chicken", protien: "Fish",
     text: "Roast Chicken served with mashed potatoes and steamed vegetables",
     side1: "Mashed Potatoes", side2: "Carrots", side3: "Broccoli",
     ingredients: "Chicken, Potatoes, Carrots, Broccoli"
@@ -23,14 +23,14 @@ var daysData = [
   },
   {
     id: "Wednesday",
-    title: "Hamburger Soup with Barley", protien: "Beef",
+    title: "Hamburger Soup with Barley", protien: "pork",
     text: "Mitchell's soup company soup with homemade sides",
     side1: "No Knead Bread", side2: "", side3: "",
     ingredients: 'Leftover soup, flour, salt, salt, sugar, yeast, water'
   },
   {
     id: "Thursday",
-    title: "Almond Chicken", protien: "Chicken",
+    title: "Almond Chicken", protien: "Vegetarian",
     text: "A brand new recipe of crushed almond breaded chicken",
     side1: "Pork Fried Rice", side2: "", side3: "",
     ingredients: ''
@@ -75,7 +75,9 @@ for (var i = 0; i < daysData.length; i++) {
         <div class="card-body d-flex flex-column">
           <!-- Card Title with dynamically generated ID -->
           <h5 class="card-title " id="${day.id}-title" >${day.title}</h5>
-          <h6 class="card-subtitle mb-2 text-body-secondary">${day.protien}</h6>
+          <h6 class="card-subtitle mb-2 text-body-secondary">
+            <span class="protien-color rounded ${day.protien.toLowerCase()} white-font">${day.protien}</span>
+          </h6>
           <p class="card-text">${day.text}</p>
           <!-- List of sides with dynamically generated IDs -->
           <ul class="list-group list-group-flush">

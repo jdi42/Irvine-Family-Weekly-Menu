@@ -41,6 +41,8 @@ body{
     font-style: italic;
 }
 
+
+
 /* CHANGING THE FONT COLOR OF THE NAVBAR LINKS */
 .nav-link{color: white;}
 .nav-link :active{color: white;}
@@ -57,11 +59,50 @@ body{
     /* Adjust the max-height as needed */
 }
 
+/* THIS MAKES ALL THE SIDE ITEMS THE SAME HIEGHT IN THE CARD, REGARDLESS
+OF WHETHER OR NOT THEY HAVE ANY CONTENT */
 .min-list-item-height{
     min-height: 2em;
 }
-
+/* A RECOLORING OF THE BUTTONS WHEN HOVERED OVER */
 .btn:hover{
     color: white;
     background-color: #720E0E;
+}
+
+
+
+:root{
+    --beefColor: red;
+    --chickenColor: rgb(151, 151, 15);
+    --porkColor : rgba(182, 123, 15, 0.534);
+    --fishColor : blue;
+    --vegColor : green;
+}
+
+.protien-color {
+    display: inline-block;
+    padding: 2px 5px; /* Adjust the padding as needed */
+    background-color: green;
+}
+
+.beef {
+    background-color: var(--beefColor);
+}
+
+.chicken {
+    background-color: var(--chickenColor);
+}
+
+.pork{
+    background-color: var(--porkColor);
+}
+
+.fish{
+    background-color: var(--fishColor);
+    color: white;
+}
+
+.vegetarian {
+    background-color: var(--vegColor);
 }
