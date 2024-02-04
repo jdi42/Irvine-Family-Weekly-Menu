@@ -2,52 +2,52 @@
 var daysData = [
   {
     id: "Sunday",
-    title: "Roast Chicken", protien: "Fish",
-    text: "Roast Chicken served with mashed potatoes and steamed vegetables",
-    side1: "Mashed Potatoes", side2: "Carrots", side3: "Broccoli",
-    ingredients: "Chicken, Potatoes, Carrots, Broccoli"
+    title: "Roast Beef and Gravy", protien: "Beef",
+    text: "Traditional Sunday dinner prepared with loving hands",
+    side1: "Mashed Potatoes", side2: "Yorkshire Pudding", side3: "Carrots and Broccoli",
+    ingredients: "Nothing to buy"
   },
   {
     id: "Monday",
-    title: "Hamburger Soup with Barley", protien: "Beef",
-    text: "Mitchell's soup company soup with homemade sides",
-    side1: "Smokies", side2: "", side3: "",
-    ingredients: 'Ground beef, onion, beef stock, canned tomatoes, carrots, celery, barley, bay leaf, thyme, parsley, salt and pepper, worcestershire sauce, rosemary, smokies, hotdog buns'
+    title: "Swiss Farmer Sausage and Pearl Couscuos Salad", protien: "Pork",
+    text: "A new recipe to use that funky looking sausage",
+    side1: "Garlic/Cheese Toast", side2: "", side3: "",
+    ingredients: 'Couscous, Green Beans, Cherry Tomatoes, Spinach'
   },
   {
     id: "Tuesday",
-    title: "Chicken Salad", protien: "Chicken",
-    text: "A simple salad made with leftover chicken",
-    side1: "Garlic/Cheese Toast", side2: "", side3: "",
-    ingredients: 'leftover chicken, salad fixings, tomato, celery, radishes, carrots, peanuts'
+    title: "Beef Dip", protien: "Beef",
+    text: "Comfort pub food dinner to use up leftovers",
+    side1: "Fries", side2: "Raw Veggies", side3: "",
+    ingredients: 'Buns, Fries'
   },
   {
     id: "Wednesday",
-    title: "Hamburger Soup with Barley", protien: "pork",
-    text: "Mitchell's soup company soup with homemade sides",
-    side1: "No Knead Bread", side2: "", side3: "",
-    ingredients: 'Leftover soup, flour, salt, salt, sugar, yeast, water'
+    title: "Pizza", protien: "Pork",
+    text: "Homemade Pizza for an easy meal before jetting off to sunnier climbs",
+    side1: "Salad", side2: "", side3: "",
+    ingredients: 'Mushrooms, Green Pepper, Salad Fixings'
   },
   {
     id: "Thursday",
-    title: "Almond Chicken", protien: "Vegetarian",
-    text: "A brand new recipe of crushed almond breaded chicken",
-    side1: "Pork Fried Rice", side2: "", side3: "",
+    title: "", protien: "",
+    text: "",
+    side1: "", side2: "", side3: "",
     ingredients: ''
   },
   {
     id: "Friday",
-    title: "Salsbury Steak", protien: "Beef",
-    text: "A favorite comfort food with a mushroom gravy to relax at the end of the week",
-    side1: "Boiled Potatoes", side2: "Corn", side3: "Cabbage",
-    ingredients: 'mushrooms, beef broth'
+    title: "", protien: "",
+    text: "",
+    side1: "", side2: "", side3: "",
+    ingredients: ''
   },
   {
     id: "Saturday",
-    title: "Fried Chicken Thighs", protien: "Chicken",
-    text: "Grant's specialty and go-to on his night of culinary discovery",
-    side1: "Brown Rice", side2: "Brussel Sprouts with Bacon", side3: "Tomato Wedges",
-    ingredients: 'brussel sprouts, tomato'
+    title: "", protien: "",
+    text: "",
+    side1: "", side2: "", side3: "",
+    ingredients: ''
   }
 ];
 
