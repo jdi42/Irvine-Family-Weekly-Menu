@@ -91,7 +91,7 @@ for (var i = 0; i < daysData.length; i++) {
               Ingredients
             </button>
             <!-- Button for Recipe with custom silver button color -->
-            <button class="btn custom-silver-button-color" data-toggle="tooltip" title="recipe info here">Recipe</button>
+            <button class="btn custom-silver-button-color" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip-color" title="recipe info here">Recipe</button>
           </div>
         </div>
       </div>

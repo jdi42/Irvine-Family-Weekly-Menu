@@ -41,6 +41,11 @@ body{
     font-style: italic;
 }
 
+.custom-tooltip-color{
+    --bs-tooltip-bg: var(--irvineBrown);
+    --bs-tooltip-color: var(--irvineWhite);
+}
+
 
 
 /* CHANGING THE FONT COLOR OF THE NAVBAR LINKS */
@@ -71,13 +76,19 @@ OF WHETHER OR NOT THEY HAVE ANY CONTENT */
 }
 
 
-
+/* SOME CUSTOM COLORS*/
 :root{
+
+    /* protien colors */
     --beefColor: red;
     --chickenColor: rgb(151, 151, 15);
     --porkColor : rgba(182, 123, 15, 0.534);
     --fishColor : blue;
     --vegColor : green;
+
+    /* tooltip colors */
+    --irvineBrown: #6C4538;
+    --irvineWhite: white;
 }
 
 .protien-color {
