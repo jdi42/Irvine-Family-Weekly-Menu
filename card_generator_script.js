@@ -75,8 +75,10 @@ fetch('daysData.csv')
       }
     }
 
+    
+
     // Log the result
-    console.log("daysData length: " + daysData.length);
+    console.log(daysData);
 
     // Get the container element
     var daysContainer = document.getElementById("days-container");
