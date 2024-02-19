@@ -2,49 +2,49 @@
 var daysData = [
   {
     id: "Sunday",
-    title: "Roast Beef and Gravy", protien: "Beef",
-    text: "Traditional Sunday dinner prepared with loving hands",
-    side1: "Mashed Potatoes", side2: "Yorkshire Pudding", side3: "Carrots and Broccoli",
+    title: "Cajun Salmon", protien: "Fish",
+    text: "Savor the bold flavors of our Cajun Salmon, expertly grilled and served with a refreshing Quinoa Chickpea Salad. Accompanied by tender Asparagus, this dish offers a perfect balance of spice and wholesome goodness.",
+    side1: "Quinoa and Chickpea Salad", side2: "Asparagus", side3: "",
     ingredients: "Nothing to buy"
   },
   {
     id: "Monday",
-    title: "Swiss Farmer Sausage and Pearl Couscuos Salad", protien: "Pork",
-    text: "A new recipe to use that funky looking sausage",
-    side1: "Garlic/Cheese Toast", side2: "", side3: "",
-    ingredients: 'Couscous, Green Beans, Cherry Tomatoes, Spinach'
+    title: "Meatlovers Pizza", protien: "Pork",
+    text: "Savor the essence of Canada with our Homemade Meat Lovers Pizza, loaded with bacon, pepperoni, and ground pork. Pair it with a side salad for a perfect balance of indulgence and freshness. A true Canadian delight!",
+    side1: "Tossed Garden Salad", side2: "", side3: "",
+    ingredients: 'Nothing to buy'
   },
   {
     id: "Tuesday",
-    title: "Beef Dip", protien: "Beef",
-    text: "Comfort pub food dinner to use up leftovers",
-    side1: "Fries", side2: "Raw Veggies", side3: "",
-    ingredients: 'Buns, Fries'
+    title: "Rustic Italian Soup", protien: "Vegetarian",
+    text: "Experience Italy with our Rustic Italian Soup, a flavorful veggie and bean blend, paired perfectly with our Club Sandwiches. Satisfy your cravings with this delightful combo.",
+    side1: "Club Sandwiches", side2: "", side3: "",
+    ingredients: ''
   },
   {
     id: "Wednesday",
-    title: "Pizza", protien: "Pork",
-    text: "Homemade Pizza for an easy meal before jetting off to sunnier climbs",
-    side1: "Salad", side2: "", side3: "",
+    title: "Spaghetti", protien: "Beef",
+    text: "Delight in our Spaghetti Bolognese, a savory blend of slow-cooked beef and tomatoes over al dente pasta. Served with a side salad and garlic toast for a perfect Italian pairing.",
+    side1: "Tossed Garden Salad", side2: "Garlic Toast", side3: "",
     ingredients: 'Mushrooms, Green Pepper, Salad Fixings'
   },
   {
     id: "Thursday",
-    title: "", protien: "",
-    text: "",
-    side1: "", side2: "", side3: "",
+    title: "Rustic Italian Soup", protien: "Vegetarian",
+    text: "Indulge in our Rustic Italian Soup, a comforting blend of veggies and cannellini beans in flavorful broth, served with freshly baked homemade bread. A taste of traditional warmth in every spoonful.",
+    side1: "No Knead Bread", side2: "", side3: "",
     ingredients: ''
   },
   {
     id: "Friday",
-    title: "", protien: "",
+    title: "To be determined", protien: "",
     text: "",
     side1: "", side2: "", side3: "",
     ingredients: ''
   },
   {
     id: "Saturday",
-    title: "", protien: "",
+    title: "To be determined", protien: "",
     text: "",
     side1: "", side2: "", side3: "",
     ingredients: ''
