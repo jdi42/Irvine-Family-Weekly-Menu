@@ -44,7 +44,7 @@ var daysData = [
   },
   {
     id: "Saturday",
-    title: "Pork Chops with Mushroom Sauce", protien: "",
+    title: "Pork Chops with Mushroom Sauce", protien: "Pork",
     text: "Savor our Pork Chops with Mushroom Sauce, served with green beans and boiled potatoes—a harmonious blend of savory perfection.",
     side1: "Green Beans", side2: "Boiled Potatoes", side3: "",
     ingredients: 'Nothing to buy'
