@@ -2,52 +2,52 @@
 var daysData = [
   {
     id: "Sunday",
-    title: "Cajun Salmon", protien: "Fish",
-    text: "Savor the bold flavors of our Cajun Salmon, expertly grilled and served with a refreshing Quinoa Chickpea Salad. Accompanied by tender Asparagus, this dish offers a perfect balance of spice and wholesome goodness.",
-    side1: "Quinoa and Chickpea Salad", side2: "Asparagus", side3: "",
+    title: "Takeout", protien: "",
+    text: "",
+    side1: "", side2: "", side3: "",
     ingredients: "Nothing to buy"
   },
   {
     id: "Monday",
-    title: "Meatlovers Pizza", protien: "Pork",
-    text: "Savor the essence of Canada with our Homemade Meat Lovers Pizza, loaded with bacon, pepperoni, and ground pork. Pair it with a side salad for a perfect balance of indulgence and freshness. A true Canadian delight!",
-    side1: "Tossed Garden Salad", side2: "", side3: "",
+    title: "Ham", protien: "Pork",
+    text: "Savor our perfectly roasted Ham with creamy Potatoes au Gratin and crisp Green Beans—a classic trio of flavors for a delightful and satisfying meal.",
+    side1: "Potatoes au Gratin", side2: "Green Beans with Almonds", side3: "Sliced Tomato",
     ingredients: 'Nothing to buy'
   },
   {
     id: "Tuesday",
-    title: "Rustic Italian Soup", protien: "Vegetarian",
-    text: "Experience Italy with our Rustic Italian Soup, a flavorful veggie and bean blend, paired perfectly with our Club Sandwiches. Satisfy your cravings with this delightful combo.",
-    side1: "Club Sandwiches", side2: "", side3: "",
-    ingredients: ''
+    title: "Chicken Pot Pie", protien: "Chicken",
+    text: "Experience comfort with our Chicken Pot Pie, filled with tender chicken and veggies, accompanied by a side of crisp sliced raw veggies. A perfect balance of warmth and freshness in every bite.",
+    side1: "Sliced Raw Veggies", side2: "", side3: "",
+    ingredients: 'Nothing to buy'
   },
   {
     id: "Wednesday",
-    title: "Spaghetti", protien: "Beef",
-    text: "Delight in our Spaghetti Bolognese, a savory blend of slow-cooked beef and tomatoes over al dente pasta. Served with a side salad and garlic toast for a perfect Italian pairing.",
-    side1: "Tossed Garden Salad", side2: "Garlic Toast", side3: "",
-    ingredients: 'Mushrooms, Green Pepper, Salad Fixings'
+    title: "Chef's Salad", protien: "Pork",
+    text: "Savor our Chef's Salad – a crisp blend of fresh greens, tomatoes, cucumber, hard-boiled eggs, ham, and cheddar cheese, topped with our signature dressing and homemade croutons. A delicious and satisfying choice for a wholesome meal.",
+    side1: "Garlic Toast", side2: "", side3: "",
+    ingredients: 'Nothing to buy'
   },
   {
     id: "Thursday",
-    title: "Rustic Italian Soup", protien: "Vegetarian",
-    text: "Indulge in our Rustic Italian Soup, a comforting blend of veggies and cannellini beans in flavorful broth, served with freshly baked homemade bread. A taste of traditional warmth in every spoonful.",
-    side1: "No Knead Bread", side2: "", side3: "",
-    ingredients: ''
+    title: "Italian Meatball Subs", protien: "Beef",
+    text: "Satisfy your cravings with our Italian Meatball Subs – homemade beef meatballs, marinara, melted mozzarella, all in a toasted baguette. Paired with golden fries for the perfect bite. Italian comfort, ready to enjoy.",
+    side1: "Fries", side2: "Side Salad", side3: "",
+    ingredients: 'Nothing to buy'
   },
   {
     id: "Friday",
-    title: "To be determined", protien: "",
-    text: "",
-    side1: "", side2: "", side3: "",
-    ingredients: ''
+    title: "Ham and Cheese Frittata", protien: "Pork",
+    text: "Savor our Ham and Cheese Frittata—fluffy eggs loaded with savory ham and melted cheese. A delicious and hearty finish to your day.",
+    side1: "Tomato Wedges", side2: "", side3: "",
+    ingredients: 'Nothing to buy'
   },
   {
     id: "Saturday",
-    title: "To be determined", protien: "",
+    title: "Saturday Surprise!", protien: "",
     text: "",
     side1: "", side2: "", side3: "",
-    ingredients: ''
+    ingredients: 'Nothing to buy'
   }
 ];
 
