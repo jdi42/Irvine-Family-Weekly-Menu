@@ -2,52 +2,59 @@
 var daysData = [
   {
     id: "Sunday",
-    title: "Takeout", protien: "",
-    text: "",
-    side1: "", side2: "", side3: "",
-    ingredients: "Nothing to buy"
+    title: "Roast Chicken", protien: "Chicken",
+    text: "A homemade Sunday staple, flavorful and comforting",
+    side1: "Mashed Potatoes", side2: "Carrots", side3: "Broccoli",
+    ingredients: "Nothing to buy",
+    recipe:"In Mom's Head"
   },
   {
     id: "Monday",
-    title: "Ham", protien: "Pork",
-    text: "Savor our perfectly roasted Ham with creamy Potatoes au Gratin and crisp Green Beans—a classic trio of flavors for a delightful and satisfying meal.",
-    side1: "Potatoes au Gratin", side2: "Green Beans with Almonds", side3: "Sliced Tomato",
-    ingredients: 'Nothing to buy'
+    title: "Nine Bean Soup", protien: "Vegetarian",
+    text: "If you love beans you'll love this, a hearty soup for a cold day",
+    side1: "Bannock", side2: "", side3: "",
+    ingredients: 'Nothing to buy',
+    recipe:"Back cover of Yellow Cookbook"
   },
   {
     id: "Tuesday",
-    title: "Chicken Pot Pie", protien: "Chicken",
-    text: "Experience comfort with our Chicken Pot Pie, filled with tender chicken and veggies, accompanied by a side of crisp sliced raw veggies. A perfect balance of warmth and freshness in every bite.",
-    side1: "Sliced Raw Veggies", side2: "", side3: "",
-    ingredients: 'Nothing to buy'
+    title: "Shepherds Pie", protien: "Beef",
+    text: "A new way of creating an old classic",
+    side1: "Sliced Veggies", side2: "", side3: "",
+    ingredients: 'Nothing to buy',
+    recipe:"Cast Iron Magazine"
   },
   {
     id: "Wednesday",
-    title: "Chef's Salad", protien: "Pork",
-    text: "Savor our Chef's Salad – a crisp blend of fresh greens, tomatoes, cucumber, hard-boiled eggs, ham, and cheddar cheese, topped with our signature dressing and homemade croutons. A delicious and satisfying choice for a wholesome meal.",
-    side1: "Garlic Toast", side2: "", side3: "",
-    ingredients: 'Nothing to buy'
+    title: "Instant Pot Spanish Pork Stew", protien: "Pork",
+    text: "Experimental Recipe which looks promising",
+    side1: "", side2: "", side3: "",
+    ingredients: 'Nothing to buy',
+    recipe:"Green Binder"
   },
   {
     id: "Thursday",
-    title: "Italian Meatball Subs", protien: "Beef",
-    text: "Satisfy your cravings with our Italian Meatball Subs – homemade beef meatballs, marinara, melted mozzarella, all in a toasted baguette. Paired with golden fries for the perfect bite. Italian comfort, ready to enjoy.",
-    side1: "Fries", side2: "Side Salad", side3: "",
-    ingredients: 'Nothing to buy'
+    title: "Chicken Stir Fry", protien: "Chicken",
+    text: "Got to use up those noodles",
+    side1: "", side2: "", side3: "",
+    ingredients: 'Nothing to buy',
+    recipe:"In Joseph's Head"
   },
   {
     id: "Friday",
-    title: "Ham and Cheese Frittata", protien: "Pork",
-    text: "Savor our Ham and Cheese Frittata—fluffy eggs loaded with savory ham and melted cheese. A delicious and hearty finish to your day.",
-    side1: "Tomato Wedges", side2: "", side3: "",
-    ingredients: 'Nothing to buy'
+    title: "Hamburgers", protien: "Pork",
+    text: "A lazy dinner... with minimal effort (perazosa)",
+    side1: "Baked Potato", side2: "Green Salad", side3: "",
+    ingredients: 'Nothing to buy',
+    recipe:"Collective Knowledge"
   },
   {
     id: "Saturday",
-    title: "Pork Chops with Mushroom Sauce", protien: "Pork",
-    text: "Savor our Pork Chops with Mushroom Sauce, served with green beans and boiled potatoes—a harmonious blend of savory perfection.",
-    side1: "Green Beans", side2: "Boiled Potatoes", side3: "",
-    ingredients: 'Nothing to buy'
+    title: "Saturday Surprise!", protien: "",
+    text: "From the imaginarium of Grant Irvine",
+    side1: "", side2: "", side3: "",
+    ingredients: 'Nothing to buy',
+    recipe:"In Grant's head, TBD"
   }
 ];
 
@@ -91,7 +98,7 @@ for (var i = 0; i < daysData.length; i++) {
               Ingredients
             </button>
             <!-- Button for Recipe with custom silver button color -->
-            <button class="btn custom-silver-button-color" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip-color" title="recipe info here">Recipe</button>
+            <button class="btn custom-silver-button-color" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip-color" title="${day.recipe}">Recipe</button>
           </div>
         </div>
       </div>
