@@ -42,7 +42,7 @@ var daysData = [
   },
   {
     id: "Friday",
-    title: "Hamburgers", protien: "Pork",
+    title: "Hamburgers", protien: "Beef",
     text: "A lazy dinner... with minimal effort (perazosa)",
     side1: "Baked Potato", side2: "Green Salad", side3: "",
     ingredients: 'Nothing to buy',
@@ -50,9 +50,9 @@ var daysData = [
   },
   {
     id: "Saturday",
-    title: "Saturday Surprise!", protien: "",
-    text: "From the imaginarium of Grant Irvine",
-    side1: "", side2: "", side3: "",
+    title: "Schnitzel", protien: "Pork",
+    text: "A classic deep fried comfort food perfect for a Saturday",
+    side1: "Mashed Potatoes", side2: "Cabbage", side3: "Corn",
     ingredients: 'Nothing to buy',
     recipe:"In Grant's head, TBD"
   }
