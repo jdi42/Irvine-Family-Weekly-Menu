@@ -2,57 +2,57 @@
 var daysData = [
   {
     id: "Sunday",
-    title: "Roast Chicken", protien: "Chicken",
-    text: "A homemade Sunday staple, flavorful and comforting",
-    side1: "Mashed Potatoes", side2: "Carrots", side3: "Broccoli",
+    title: "Ribs and Rice", protien: "Pork",
+    text: "A Sunday Staple with teriyaki sauce",
+    side1: "Brown Rice", side2: "Carrots and Broccoli", side3: "Tomato Wedges",
     ingredients: "Nothing to buy",
     recipe:"In Mom's Head"
   },
   {
     id: "Monday",
-    title: "Nine Bean Soup", protien: "Vegetarian",
-    text: "If you love beans you'll love this, a hearty soup for a cold day",
-    side1: "Bannock", side2: "", side3: "",
+    title: "Homemade Pizza", protien: "Pork",
+    text: "An easy Monday dinner",
+    side1: "Salad", side2: "", side3: "",
     ingredients: 'Nothing to buy',
-    recipe:"Back cover of Yellow Cookbook"
+    recipe:"On the package"
   },
   {
     id: "Tuesday",
-    title: "Shepherds Pie", protien: "Beef",
-    text: "A new way of creating an old classic",
-    side1: "Sliced Veggies", side2: "", side3: "",
-    ingredients: 'Nothing to buy',
-    recipe:"Cast Iron Magazine"
-  },
-  {
-    id: "Wednesday",
-    title: "Instant Pot Spanish Pork Stew", protien: "Pork",
-    text: "Experimental Recipe which looks promising",
-    side1: "", side2: "", side3: "",
+    title: "Lasagna Soup", protien: "Beef",
+    text: "A hearty, delicious wrap yourself in a warm blanket kind of meal",
+    side1: "Herb Bread", side2: "", side3: "",
     ingredients: 'Nothing to buy',
     recipe:"Green Binder"
   },
   {
-    id: "Thursday",
-    title: "Chicken Stir Fry", protien: "Chicken",
-    text: "Got to use up those noodles",
+    id: "Wednesday",
+    title: "Cajun Pork Chops with Dirty Rice", protien: "Pork",
+    text: "Experimental Recipe which looks promising",
     side1: "", side2: "", side3: "",
     ingredients: 'Nothing to buy',
-    recipe:"In Joseph's Head"
+    recipe:"Cast Iron Cookbook"
+  },
+  {
+    id: "Thursday",
+    title: "Lasagna Soup", protien: "Beef",
+    text: "Use up those leftovers",
+    side1: "BLT Sandwiches", side2: "", side3: "",
+    ingredients: 'Nothing to buy',
+    recipe:"Green Binder"
   },
   {
     id: "Friday",
-    title: "Hamburgers", protien: "Beef",
-    text: "A lazy dinner... with minimal effort (perazosa)",
-    side1: "Baked Potato", side2: "Green Salad", side3: "",
+    title: "Chicken Wings", protien: "Chicken",
+    text: "A pub food classic",
+    side1: "Raw Veggies", side2: "Potato Wedges", side3: "",
     ingredients: 'Nothing to buy',
     recipe:"Collective Knowledge"
   },
   {
     id: "Saturday",
-    title: "Schnitzel", protien: "Pork",
-    text: "A classic deep fried comfort food perfect for a Saturday",
-    side1: "Mashed Potatoes", side2: "Cabbage", side3: "Corn",
+    title: "Saturday Surprise!", protien: "",
+    text: "Grant's Imaginarium",
+    side1: "", side2: "", side3: "",
     ingredients: 'Nothing to buy',
     recipe:"In Grant's head, TBD"
   }
