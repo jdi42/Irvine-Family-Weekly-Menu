@@ -3,58 +3,58 @@ var daysData = [
   {
     id: "Sunday",
     title: "Ribs and Rice", protien: "Pork",
-    text: "A Sunday Staple with teriyaki sauce",
+    text: "A Sunday Staple with Homemade BBQ Sauce",
     side1: "Brown Rice", side2: "Carrots and Broccoli", side3: "Tomato Wedges",
     ingredients: "Nothing to buy",
     recipe:"In Mom's Head"
   },
   {
     id: "Monday",
-    title: "Homemade Pizza", protien: "Pork",
-    text: "An easy Monday dinner",
-    side1: "Salad", side2: "", side3: "",
-    ingredients: 'Nothing to buy',
-    recipe:"On the package"
-  },
-  {
-    id: "Tuesday",
-    title: "Lasagna Soup", protien: "Beef",
-    text: "A hearty, delicious wrap yourself in a warm blanket kind of meal",
-    side1: "Herb Bread", side2: "", side3: "",
-    ingredients: 'Nothing to buy',
-    recipe:"Green Binder"
-  },
-  {
-    id: "Wednesday",
-    title: "Cajun Pork Chops with Dirty Rice", protien: "Pork",
-    text: "Experimental Recipe which looks promising",
-    side1: "", side2: "", side3: "",
+    title: "Fried Chicken Sandwiches", protien: "Chicken",
+    text: "Cast iron skillet delicousness!",
+    side1: "Potato Wedges", side2: "", side3: "",
     ingredients: 'Nothing to buy',
     recipe:"Cast Iron Cookbook"
   },
   {
-    id: "Thursday",
-    title: "Lasagna Soup", protien: "Beef",
-    text: "Use up those leftovers",
-    side1: "BLT Sandwiches", side2: "", side3: "",
+    id: "Tuesday",
+    title: "Sausages & Potatoes", protien: "Pork",
+    text: "An easy staple",
+    side1: "Boiled Potatoes", side2: "Corn", side3: "Cabbage",
     ingredients: 'Nothing to buy',
-    recipe:"Green Binder"
+    recipe:"In Mom's Head"
+  },
+  {
+    id: "Wednesday",
+    title: "Lasagna Soup", protien: "Beef",
+    text: "A hearty, delicious wrap yourself in a warm blanket kind of meal",
+    side1: "Homemade Bread", side2: "", side3: "",
+    ingredients: 'Nothing to buy',
+    recipe:"IP Recipe"
+  },
+  {
+    id: "Thursday",
+    title: "TBD", protien: "Beef",
+    text: "We will think something up",
+    side1: "", side2: "", side3: "",
+    ingredients: 'Nothing to buy',
+    recipe:"???"
   },
   {
     id: "Friday",
-    title: "Chicken Wings", protien: "Chicken",
-    text: "A pub food classic",
-    side1: "Raw Veggies", side2: "Potato Wedges", side3: "",
+    title: "TBD", protien: "Beef",
+    text: "We will think something up",
+    side1: "", side2: "", side3: "",
     ingredients: 'Nothing to buy',
-    recipe:"Collective Knowledge"
+    recipe:"???"
   },
   {
     id: "Saturday",
-    title: "Saturday Surprise!", protien: "",
-    text: "Grant's Imaginarium",
-    side1: "", side2: "", side3: "",
-    ingredients: 'Nothing to buy',
-    recipe:"In Grant's head, TBD"
+    title: "Turkey Dinner!", protien: "Turkey",
+    text: "An early Easter Sunday Dinner",
+    side1: "Mashed Potatoes & Gravy", side2: "Carrots & Brocolli", side3: "Dressing",
+    ingredients: 'Turkey',
+    recipe:"In Mom's Head"
   }
 ];
 
