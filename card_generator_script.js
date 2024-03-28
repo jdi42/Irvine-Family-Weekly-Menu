@@ -34,19 +34,19 @@ var daysData = [
   },
   {
     id: "Thursday",
-    title: "TBD", protien: "Beef",
-    text: "We will think something up",
-    side1: "", side2: "", side3: "",
-    ingredients: 'Nothing to buy',
-    recipe:"???"
+    title: "Baked Haddock", protien: "Fish",
+    text: "It is actually going to be cod, not haddock. Plus, we will use the George Foreman Grill instead of baking the fish",
+    side1: "Pearl Couscous Salad", side2: "", side3: "",
+    ingredients: 'Got everything already!',
+    recipe:"Found stuff online"
   },
   {
     id: "Friday",
-    title: "TBD", protien: "Beef",
-    text: "We will think something up",
+    title: "TakeOut", protien: "Pork",
+    text: "Thought about ordering pizza. Hye Weon recommended Pizza Hut. Extra sauce and extra cheese. If you order online you can get deals, so we'll try that",
     side1: "", side2: "", side3: "",
     ingredients: 'Nothing to buy',
-    recipe:"???"
+    recipe:"Cellphone!"
   },
   {
     id: "Saturday",
