@@ -2,59 +2,59 @@
 var daysData = [
   {
     id: "Sunday",
-    title: "Ribs and Rice", protien: "Pork",
-    text: "A Sunday Staple with teriyaki sauce",
-    side1: "Brown Rice", side2: "Carrots and Broccoli", side3: "Tomato Wedges",
+    title: "Turkey Dinner", protien: "Turkey",
+    text: "Leftover turkey for an easy meal",
+    side1: "Mashed Potatoes", side2: "Dressing", side3: "Carrots & Broccoli",
     ingredients: "Nothing to buy",
-    recipe:"In Mom's Head"
+    recipe:"Time Honored"
   },
   {
     id: "Monday",
-    title: "Homemade Pizza", protien: "Pork",
-    text: "An easy Monday dinner",
-    side1: "Salad", side2: "", side3: "",
+    title: "Salad with Pork", protien: "Pork",
+    text: "A healthy reprieve from the turkey",
+    side1: "Garlic Bread", side2: "", side3: "",
     ingredients: 'Nothing to buy',
-    recipe:"On the package"
+    recipe:"Common Knowledge"
   },
   {
     id: "Tuesday",
-    title: "Lasagna Soup", protien: "Beef",
-    text: "A hearty, delicious wrap yourself in a warm blanket kind of meal",
-    side1: "Herb Bread", side2: "", side3: "",
+    title: "Open Faced Turkey Sandwiches", protien: "Turkey",
+    text: "Sandwiches to use up what's left of that blasted turkey",
+    side1: "Fries", side2: "Cold Veggies", side3: "",
     ingredients: 'Nothing to buy',
-    recipe:"Green Binder"
+    recipe:"Common Knowledge"
   },
   {
     id: "Wednesday",
-    title: "Cajun Pork Chops with Dirty Rice", protien: "Pork",
-    text: "Experimental Recipe which looks promising",
-    side1: "", side2: "", side3: "",
+    title: "Spaghetti with Bolognese Sauce", protien: "Beef",
+    text: "A classical Italian comfort meal",
+    side1: "Warm French Bread", side2: "Corn", side3: "",
     ingredients: 'Nothing to buy',
-    recipe:"Cast Iron Cookbook"
+    recipe:"Black Binder"
   },
   {
     id: "Thursday",
-    title: "Lasagna Soup", protien: "Beef",
-    text: "Use up those leftovers",
-    side1: "BLT Sandwiches", side2: "", side3: "",
+    title: "TBD", protien: "",
+    text: "",
+    side1: "", side2: "", side3: "",
     ingredients: 'Nothing to buy',
-    recipe:"Green Binder"
+    recipe:""
   },
   {
     id: "Friday",
-    title: "Chicken Wings", protien: "Chicken",
-    text: "A pub food classic",
-    side1: "Raw Veggies", side2: "Potato Wedges", side3: "",
+    title: "TBD", protien: "",
+    text: "",
+    side1: "", side2: "", side3: "",
     ingredients: 'Nothing to buy',
-    recipe:"Collective Knowledge"
+    recipe:""
   },
   {
     id: "Saturday",
-    title: "Saturday Surprise!", protien: "",
-    text: "Grant's Imaginarium",
+    title: "TBD", protien: "",
+    text: "",
     side1: "", side2: "", side3: "",
-    ingredients: 'Nothing to buy',
-    recipe:"In Grant's head, TBD"
+    ingredients: '',
+    recipe:""
   }
 ];
 

@@ -85,6 +85,7 @@ OF WHETHER OR NOT THEY HAVE ANY CONTENT */
     --porkColor : rgba(182, 123, 15, 0.534);
     --fishColor : blue;
     --vegColor : green;
+    --turkeyColor: purple;
 
     /* tooltip colors */
     --irvineBrown: #6C4538;
@@ -115,4 +116,7 @@ OF WHETHER OR NOT THEY HAVE ANY CONTENT */
 
 .vegetarian {
     background-color: var(--vegColor);
+}
+.turkey{
+    background-color: var(--turkeyColor);
 }
