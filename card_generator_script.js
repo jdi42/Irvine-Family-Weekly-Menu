@@ -34,24 +34,24 @@ var daysData = [
   },
   {
     id: "Thursday",
-    title: "TBD", protien: "",
-    text: "",
-    side1: "", side2: "", side3: "",
+    title: "Pork Chops with Mushroom Sauce", protien: "Pork",
+    text: "A one dish slow cooker classic",
+    side1: "Green Beans", side2: "Boiled Potatoes", side3: "Tomato Wedges",
     ingredients: 'Nothing to buy',
-    recipe:""
+    recipe:"500 Glycemic Recipies"
   },
   {
     id: "Friday",
-    title: "TBD", protien: "",
-    text: "",
+    title: "Hot Dogs", protien: "Pork",
+    text: "A barbacued Friday meal in anticipation of warmer weather",
     side1: "", side2: "", side3: "",
     ingredients: 'Nothing to buy',
-    recipe:""
+    recipe:"Common Knowledge"
   },
   {
     id: "Saturday",
     title: "TBD", protien: "",
-    text: "",
+    text: "Grant's Creation",
     side1: "", side2: "", side3: "",
     ingredients: '',
     recipe:""
