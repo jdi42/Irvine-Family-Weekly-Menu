@@ -86,6 +86,7 @@ OF WHETHER OR NOT THEY HAVE ANY CONTENT */
     --fishColor : blue;
     --vegColor : green;
     --turkeyColor: purple;
+    --poutlryColor: magenta;
 
     /* tooltip colors */
     --irvineBrown: #6C4538;
@@ -119,4 +120,7 @@ OF WHETHER OR NOT THEY HAVE ANY CONTENT */
 }
 .turkey{
     background-color: var(--turkeyColor);
+}
+.poultry{
+    background-color: var(--poutlryColor);
 }

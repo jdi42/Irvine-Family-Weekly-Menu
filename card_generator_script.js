@@ -2,49 +2,49 @@
 var daysData = [
   {
     id: "Sunday",
-    title: "Turkey Dinner", protien: "Turkey",
-    text: "Leftover turkey for an easy meal",
-    side1: "Mashed Potatoes", side2: "Dressing", side3: "Carrots & Broccoli",
+    title: "Roast Duck", protien: "Poultry",
+    text: "Yes, you heard it.. duck! Roasted with a rosemary lemon sage infusion",
+    side1: "Wild Rice Pilaf", side2: "Carrots & Broccoli", side3: "",
     ingredients: "Nothing to buy",
-    recipe:"Time Honored"
+    recipe:"Brand Spanking New"
   },
   {
     id: "Monday",
-    title: "Salad with Pork", protien: "Pork",
-    text: "A healthy reprieve from the turkey",
-    side1: "Garlic Bread", side2: "", side3: "",
+    title: "Beef Stew", protien: "Beef",
+    text: "Too lazy to make the pastry for pies, making stew instead. Hah!",
+    side1: "Baking Powder Biscuts", side2: "", side3: "",
     ingredients: 'Nothing to buy',
-    recipe:"Common Knowledge"
+    recipe:"Red Binder"
   },
   {
     id: "Tuesday",
-    title: "Open Faced Turkey Sandwiches", protien: "Turkey",
-    text: "Sandwiches to use up what's left of that blasted turkey",
-    side1: "Fries", side2: "Cold Veggies", side3: "",
+    title: "Crisp Skin Salmon with Honey Lime Sauce", protien: "Fish",
+    text: "A new cast iron recipe to try out",
+    side1: "Zuchinni Cakes", side2: "Pouch Potatoes", side3: "",
     ingredients: 'Nothing to buy',
-    recipe:"Common Knowledge"
+    recipe:"Cast Iron Cookbook"
   },
   {
     id: "Wednesday",
-    title: "Spaghetti with Bolognese Sauce", protien: "Beef",
-    text: "A classical Italian comfort meal",
-    side1: "Warm French Bread", side2: "Corn", side3: "",
+    title: "Stew... again", protien: "Beef",
+    text: "Complete the cycle of laziness and use up leftovers",
+    side1: "Homemade Bread", side2: "", side3: "",
     ingredients: 'Nothing to buy',
-    recipe:"Black Binder"
+    recipe:"Red Binder... again"
   },
   {
     id: "Thursday",
-    title: "Pork Chops with Mushroom Sauce", protien: "Pork",
-    text: "A one dish slow cooker classic",
-    side1: "Green Beans", side2: "Boiled Potatoes", side3: "Tomato Wedges",
+    title: "Instant pot Chicken with Peppers and Rice", protien: "Chicken",
+    text: "A one dish instant pot meal",
+    side1: "", side2: "", side3: "",
     ingredients: 'Nothing to buy',
-    recipe:"500 Glycemic Recipies"
+    recipe:"Green Binder"
   },
   {
     id: "Friday",
-    title: "Hot Dogs", protien: "Pork",
-    text: "A barbacued Friday meal in anticipation of warmer weather",
-    side1: "", side2: "", side3: "",
+    title: "Pizza", protien: "Pork",
+    text: "A new type of pepperoni, on a classic recipe",
+    side1: "Green Salad", side2: "", side3: "",
     ingredients: 'Nothing to buy',
     recipe:"Common Knowledge"
   },
