@@ -2,49 +2,49 @@
 var daysData = [
   {
     id: "Sunday",
-    title: "Roast Duck", protien: "Poultry",
-    text: "Yes, you heard it.. duck! Roasted with a rosemary lemon sage infusion",
-    side1: "Wild Rice Pilaf", side2: "Carrots & Broccoli", side3: "",
+    title: "Ribs & Rice", protien: "Pork",
+    text: "One of the Sunday Standards...using the Rub this time :)",
+    side1: "Brown Rice", side2: "Carrots & Broccoli", side3: "Asparagus",
     ingredients: "Nothing to buy",
-    recipe:"Brand Spanking New"
+    recipe:"Fresh Familiar Favorite"
   },
   {
     id: "Monday",
-    title: "Beef Stew", protien: "Beef",
-    text: "Too lazy to make the pastry for pies, making stew instead. Hah!",
-    side1: "Baking Powder Biscuts", side2: "", side3: "",
-    ingredients: 'Nothing to buy',
-    recipe:"Red Binder"
-  },
-  {
-    id: "Tuesday",
-    title: "Crisp Skin Salmon with Honey Lime Sauce", protien: "Fish",
-    text: "A new cast iron recipe to try out",
-    side1: "Zuchinni Cakes", side2: "Pouch Potatoes", side3: "",
-    ingredients: 'Nothing to buy',
-    recipe:"Cast Iron Cookbook"
-  },
-  {
-    id: "Wednesday",
-    title: "Stew... again", protien: "Beef",
-    text: "Complete the cycle of laziness and use up leftovers",
-    side1: "Homemade Bread", side2: "", side3: "",
-    ingredients: 'Nothing to buy',
-    recipe:"Red Binder... again"
-  },
-  {
-    id: "Thursday",
-    title: "Instant pot Chicken with Peppers and Rice", protien: "Chicken",
-    text: "A one dish instant pot meal",
+    title: "IP Chicken & Rice", protien: "Chicken",
+    text: "Gotta use that Instant Pot! An easy weekday meal",
     side1: "", side2: "", side3: "",
     ingredients: 'Nothing to buy',
     recipe:"Green Binder"
   },
   {
+    id: "Tuesday",
+    title: "Mexicxan Tortilla Soup", protien: "Beef",
+    text: "This time we'll be using ground beef and our homemade beef stock",
+    side1: "Cheese Quesadillas", side2: "", side3: "",
+    ingredients: 'Nothing to buy',
+    recipe:"Mitchell Soup Company Mix"
+  },
+  {
+    id: "Wednesday",
+    title: "Schnitzel", protien: "Pork",
+    text: "Using Grant's new electric frying pan method. Also have to use up those potatoes before they go bad",
+    side1: "Mashed Potatoes", side2: "Corn", side3: "Cabbage",
+    ingredients: 'Nothing to buy',
+    recipe:"Yellow Low GI Cookbook"
+  },
+  {
+    id: "Thursday",
+    title: "Mexican Tortilla Soup", protien: "Beef",
+    text: "More soup! No soup for you!....just kidding",
+    side1: "...????", side2: "", side3: "",
+    ingredients: 'Nothing to buy',
+    recipe:"Mitchell Soup Company Mix"
+  },
+  {
     id: "Friday",
-    title: "Pizza", protien: "Pork",
-    text: "A new type of pepperoni, on a classic recipe",
-    side1: "Green Salad", side2: "", side3: "",
+    title: "Fish in a Pouch", protien: "Fish",
+    text: "A quick and delicious way to cook fish...gotta use those lemons which were on sale :)",
+    side1: "Green Salad", side2: "Rice....something", side3: "",
     ingredients: 'Nothing to buy',
     recipe:"Common Knowledge"
   },
